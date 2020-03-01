@@ -1,0 +1,14 @@
+.contact-page-view{
+    background-image: url("../../accessories/usecase background.jpg");
+    height: 100vh;
+    max-width: 100%;
+    background-size: cover;
+    color:white;
+    font-size: 20px;
+  }
+  .contact-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+  }

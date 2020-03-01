@@ -1,0 +1,13 @@
+.first-view{
+    background-image: url("../../accessories/firstview2.jpg");
+    height: 100vh;
+    max-width: 100%;
+    background-size: cover;
+    color:white;
+  }
+  
+
+  .show{
+    display: flex;
+    height: 300px;
+  }

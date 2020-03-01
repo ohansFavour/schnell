@@ -1,0 +1,39 @@
+.company-view{
+  
+    
+    color:white;
+    width: 65vw;
+    height: 500px;
+    /* margin: auto auto; */
+   
+  }
+  .company-container{
+    background-image: url("../../accessories/usecase background.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+ }
+.company-section{
+    height:500px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+@media screen and (max-width:500px){
+  .company-view{
+  
+    
+    color:white;
+    width: 90vw;
+    height: 500px;
+    /* border: 1px solid red; */
+  }
+  .company-section{
+    height:500px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+}

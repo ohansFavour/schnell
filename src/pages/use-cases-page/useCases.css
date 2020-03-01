@@ -1,0 +1,22 @@
+.usecasecontainer{
+
+    width: 85vw;
+    height: 300px;
+    margin: auto auto;
+    
+ }
+ .use-case-view{
+    background-image: url("../../accessories/usecase background.jpg");
+    height: 100vh;
+    max-width: 100%;
+    background-size: cover;
+    color:white;
+   
+  }
+  .use-case-section{
+
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
