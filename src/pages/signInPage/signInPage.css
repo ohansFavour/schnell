@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 .sign-in-container {
-  background-image: url("../../components/signIn/signIn-background.jpg");
+  background-image: url("../../accessories/dark.jpg");
   min-height: 100vh;
   display: flex;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 }

@@ -26,7 +26,7 @@ class Firstpage extends React.Component {
     const {index, direction} = this.state;
     return (
       <StyledContainer
-        className={`landing-page-container ${numberToWord(index+1)} `}
+        className={`landing-page-container `}
       >
         <Carousel
           activeIndex={index}

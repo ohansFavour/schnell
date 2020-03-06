@@ -3,7 +3,7 @@ import { Animated } from "react-animated-css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Header from "../../components/header/header";
-import Map from "../../accessories/maps.png";
+import Map from "../../accessories/map.PNG";
 import GoogleMaps from "../../components/google-maps/google-maps";
 import "./contactPage.css";
 

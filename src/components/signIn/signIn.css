@@ -13,7 +13,7 @@ body, html, .App, #root, .auth-wrapper {
 .form-container{
     width:40vw;
     background-color: white;
-    margin-left: auto;
+    margin: 0 auto;
     border-top-left-radius: 15px;
     padding: 3px 15px;
     opacity:1;

@@ -1,6 +1,7 @@
 .landing-page-container {
   animation-name: zoom;
-  animation-duration: 15s;
+  animation-duration: 30s;
+  background-image: url("../../accessories/first-page-backgrounds/black.jpg");
   animation-iteration-count: infinite;
 }
 @keyframes zoom {
@@ -61,18 +62,4 @@
   width: 100%;
 }
 }
-.one {
-  background-image: url("../../accessories/first-page-backgrounds/black.jpg");
-}
-.two {
-  background-image: url("../../accessories/first-page-backgrounds/longrange.jpg");
-}
-.three {
-  background-image: url("../../accessories/first-page-backgrounds/affordable.jpg");
-}
-.four {
-  background-image: url("../../accessories/first-page-backgrounds/lowPower.jpg");
-}
-.five {
-  background-image: url("../../accessories/first-page-backgrounds/secure.jpg");
-}
+

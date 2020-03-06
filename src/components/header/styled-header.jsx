@@ -6,7 +6,7 @@ const option = css`
   cursor: pointer;
   text-decoration: none;
   color:${(props)=> props.color? props.color : "white"};
-  font-size: 17px;
+  font-size: 20px;
   &:hover {
     color:${(props)=> props.color? props.color : "white"};
   }
@@ -55,8 +55,8 @@ export const StyledLinkOption = styled(Link)`
   ${option}
 `;
 export const StyledHeaderImage = styled.img`
-  height: 65px;
-  width: 65px;
+  height: 60px;
+  width: 60px;
   cursor: pointer;
   position: relative;
   top: -7px;

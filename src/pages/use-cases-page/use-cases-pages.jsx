@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 import Header from "../../components/header/header";
-import UseImage from "../../accessories/useImage.svg";
+import UseImage from "../../accessories/engineer.svg";
 import UseCase from "../../components/use-case/use-case.jsx";
 import UseCaseInvert from "../../components/use-case/use-case-invert.jsx";
 import Precision from "../../accessories/precision-agriculture.jpg";

@@ -9,3 +9,7 @@
 a:hover{
   text-decoration: none !important;
 }
+
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}

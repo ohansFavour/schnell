@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../accessories/brand.PNG";
+import Logo from "../../accessories/logo.jpg";
 import firebase from "../../utils/firebase";
 import { withRouter } from "react-router-dom";
 import HamburgerMenu from "react-hamburger-menu";
