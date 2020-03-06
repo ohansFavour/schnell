@@ -5,7 +5,9 @@ import "./index.css";
 import { Provider } from "react-redux";
 import object from "./redux/store";
 import { PersistGate } from 'redux-persist/integration/react';
+
 import App from "./App";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const {store, persistor} = object;
 ReactDOM.render(

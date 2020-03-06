@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../accessories/brand.PNG";
+import Logo from "../../accessories/logo.jpg";
 import firebase from "../../utils/firebase";
 import { withRouter } from "react-router-dom";
 import HamburgerMenu from "react-hamburger-menu";
@@ -126,7 +126,6 @@ class Header extends React.Component {
     this.props.history.push("/");
   };
   render() {
-    const color = this.props.color? this.props.color:"";
     return (
       <StyledHeaderContainer>
         <StyledLogoAndName onClick={this.handleHome}>
@@ -139,23 +138,23 @@ class Header extends React.Component {
           <StyledHamburger>{this.displayHamburgerMenu()}</StyledHamburger>
           <StyledMoreOptions>
             <StyledSpanOption>
-              <StyledAnchorLink to="/company" color={color}>Company</StyledAnchorLink>
+              <StyledAnchorLink to="/company">Company</StyledAnchorLink>
             </StyledSpanOption>
             <StyledSpanOption>
-              <StyledAnchorLink to="/useCases" color={color}>Use Cases</StyledAnchorLink>
+              <StyledAnchorLink to="/useCases">Use Cases</StyledAnchorLink>
             </StyledSpanOption>
 
             <StyledSpanOption>
-              <StyledAnchorLink to="/contact" color={color}>Contact</StyledAnchorLink>
+              <StyledAnchorLink to="/contact">Contact</StyledAnchorLink>
             </StyledSpanOption>
           </StyledMoreOptions>
           <span>
             {this.props.user ? (
-              <StyledLinkOption onClick={this.handleSignOut} to="/" color={color}>
+              <StyledLinkOption onClick={this.handleSignOut} to="/">
                 Sign Out
               </StyledLinkOption>
             ) : (
-              <StyledLinkOption to="/login"color={color}>Login</StyledLinkOption>
+              <StyledLinkOption to="/login">Login</StyledLinkOption>
             )}
           </span>
         </StyledOptionsContainer>

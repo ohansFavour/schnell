@@ -5,12 +5,12 @@ const option = css`
   padding: 0px 15px;
   cursor: pointer;
   text-decoration: none;
-  color:${(props)=> props.color? props.color : "white"};
+  color: white;
   font-size: 17px;
   &:hover {
-    color:${(props)=> props.color? props.color : "white"};
+    color: white;
   }
-  @media screen and (max-width:726px){
+  @media screen and (max-width:500px){
     display: none;
   }
   
@@ -23,16 +23,16 @@ width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media screen and (max-width:726px){
+  @media screen and (max-width:500px){
     justify-content: flex-end;
   }
   
 `;
 export const StyledAnchorLink = styled(Link)`
   text-decoration: none;
-  color:${(props)=> props.color? props.color : "white"};
+  color: white;
   &:hover {
-    color:${(props)=> props.color? props.color : "white"};
+    color: white;
   }
 `;
 
@@ -44,7 +44,7 @@ height: 70px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  color:${(props)=> props.color? props.color : "white"};
+  color: white;
   padding: 15px 10px;
 `;
 
@@ -55,8 +55,8 @@ export const StyledLinkOption = styled(Link)`
   ${option}
 `;
 export const StyledHeaderImage = styled.img`
-  height: 65px;
-  width: 65px;
+  height: 50px;
+  width: 50px;
   cursor: pointer;
   position: relative;
   top: -7px;
@@ -78,20 +78,20 @@ export const StyledMoreOptions = styled.div`
   width: 60%;
   display: flex;
   justify-content: space-around;
-  @media screen and (max-width:726px){
+  @media screen and (max-width:500px){
     display:none;
   }
 `;
 
 export const StyledHamburger = styled.div`
 display:none;
-@media screen and (max-width:726px){
+@media screen and (max-width:500px){
   display:inline;
   margin-right:30px;
 }
 `;
 export const StyledNavLink = styled(NavLink)`
 
-color:${(props)=> props.color? props.color : "white"}
+color:white
 
 `;

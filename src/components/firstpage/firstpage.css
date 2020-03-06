@@ -1,6 +1,78 @@
-.firstpagecontainer{
-  
-   width: 70vw;
-   height: 300px;
-   margin: auto auto;
+.landing-page-container {
+  animation-name: zoom;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoom {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+.schnell-content-container {
+  width: 99vw;
+  height: 300px;
+}
+.content1,.content2,.content3,.content4,.content5 {
+  width: 70%;
+  margin: 0 auto;
+}
+.schnell-header {
+  font-size: 4em;
+  color: white;
+  margin-bottom: 10px;
+}
+.schnell-content {
+  color: white;
+  font-size: 1.5em;
+}
+#slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5 {
+  width: 100%;
+}
+@media only screen and (max-width: 414px) {
+   .schnell-content-container {
+      width: 100vw;
+      height: 250px;
+    }
+  .schnell-header {
+    font-size: 2em;
+  }
+  .co {
+    width: 75%;
+  }
+  .schnell-content {
+   font-size: 1.0em;
+ }
+ #slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5 {
+  width: 100%;
+}
+}
+.one {
+  background-image: url("../../accessories/first-page-backgrounds/black.jpg");
+}
+.two {
+  background-image: url("../../accessories/first-page-backgrounds/longrange.jpg");
+}
+.three {
+  background-image: url("../../accessories/first-page-backgrounds/affordable.jpg");
+}
+.four {
+  background-image: url("../../accessories/first-page-backgrounds/lowPower.jpg");
+}
+.five {
+  background-image: url("../../accessories/first-page-backgrounds/secure.jpg");
 }
