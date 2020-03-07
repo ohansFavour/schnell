@@ -6,10 +6,10 @@
   left: 0;
   width: 100%;
   height: 500px;
-  background-image: url("../../accessories/dark.jpg");
+  background-color:black;
   background-size: cover;
   transform: skewY(-6deg);
-  transform-origin: top left;
+  transform-origin: bottom left;
   overflow:hidden;
 }
 .about-us-container{
@@ -56,7 +56,7 @@
 .team-header{
   color: black;
   font-size: 3em;
-  font-weight: 10px;
+  font-weight: bold;
   margin-bottom: 100px;
 }
 .team-party{

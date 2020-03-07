@@ -1,7 +1,7 @@
 .contact-us-view {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../accessories/dark.jpg");
+  background-color: black;
   background-size: cover;
   display: flex;
   align-items: center;
